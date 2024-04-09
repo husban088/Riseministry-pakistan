@@ -63,23 +63,23 @@
                         style="display: flex; align-items: center; justify-content: center;">
                         <li class="nav-item">
                             <a class="nav-link active px-3" aria-current="page" href="index.html"
-                                style="color: #F10E0E; font-weight: 620;">HOME</a>
+                                style="color: #F10E0E; font-weight: 620;">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-3" href="product.html"
-                                style="color: #F10E0E; font-weight: 620;">ABOUT</a>
+                                style="color: #F10E0E; font-weight: 620;">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-3" href="men.html" style="color: #F10E0E; font-weight: 620;">WINNING
-                                SOUL</a>
+                            <a class="nav-link px-3" href="men.html" style="color: #F10E0E; font-weight: 620;">Winning
+                                soul</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-3" href="women.html"
-                                style="color: #F10E0E; font-weight: 620;">TEAM</a>
+                                style="color: #F10E0E; font-weight: 620;">Team</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link px-3" href="contact.html"
-                                style="color: #F10E0E; font-weight: 620;">MORE</a>
+                                style="color: #F10E0E; font-weight: 620;">More</a>
                         </li>
 
                         <li class="nav-item">
@@ -134,7 +134,7 @@
                     <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="images/slideimage1.webp" class="d-block w-100 slide__image" alt="image 1">
+                                <img src="images/slideimage1.webp" class="d-block w-100 slide__image" id="slide__image" alt="image 1">
                             </div>
                             <div class="carousel-item">
                                 <img src="images/slideimage2.webp" class="d-block w-100 slide__image" alt="image 2">
@@ -158,7 +158,7 @@
     <div class="rise__video-section">
 
         <video width="100%" height="500px" autoplay controls preload class="rise__video">
-            <source src="images/video.mp4" type="video/mp4" />
+            <source src="images/video.mp4" type="video/mp4"/>
             <source src="images/video.mp4" type="video/webm" />
             <div id="rise__text">
                 <p>the borwser does not support our video</p>
@@ -270,7 +270,7 @@
             <div class="row">
                 <div class="col-1-of-2">
 
-                    <div class="team__box">
+                    <div class="team__box team__box-one">
                         <div class="team__image">
                             <img src="images/team1.png" alt="Suneel Shakir" class="team__img">
                         </div>
@@ -291,7 +291,7 @@
                 </div>
                 <div class="col-1-of-2">
 
-                    <div class="team__box">
+                    <div class="team__box team__box-two">
                         <div class="team__image">
                             <img src="images/team1.png" alt="Suneel Shakir" class="team__img">
                         </div>
@@ -320,7 +320,7 @@
 
                 <div class="col-1-of-2">
 
-                    <div class="team__box">
+                    <div class="team__box team__box-three">
                         <div class="team__image">
                             <img src="images/team1.png" alt="Suneel Shakir" class="team__img">
                         </div>
@@ -338,7 +338,7 @@
                 </div>
                 <div class="col-1-of-2">
 
-                    <div class="team__box">
+                    <div class="team__box team__box-for">
                         <div class="team__image">
                             <img src="images/team1.png" alt="Suneel Shakir" class="team__img">
                         </div>
@@ -371,7 +371,7 @@
         <div class="proj__cont">
             <div class="row">
                 <div class="col-1-of-2">
-                    <div class="proj__box">
+                    <div class="proj__box proj__box-one">
                         <div class="proj__image">
                             <img src="images/proj1.jpg" alt="proj1" class="proj__img">
                         </div>
@@ -387,7 +387,7 @@
                     </div>
                 </div>
                 <div class="col-1-of-2">
-                    <div class="proj__box">
+                    <div class="proj__box proj__box-two">
                         <div class="proj__image">
                             <img src="images/proj2.jpg" alt="proj2" class="proj__img">
                         </div>
@@ -413,7 +413,7 @@
         <div class="proj__cont">
             <div class="row">
                 <div class="col-1-of-2">
-                    <div class="proj__box">
+                    <div class="proj__box proj__box-three">
                         <div class="proj__image">
                             <img src="images/proj4.jpg" alt="proj1" class="proj__img">
                         </div>
@@ -429,7 +429,7 @@
                     </div>
                 </div>
                 <div class="col-1-of-2">
-                    <div class="proj__box">
+                    <div class="proj__box proj__box-for">
                         <div class="proj__image">
                             <img src="images/proj5.jpg" alt="proj2" class="proj__img">
                         </div>
@@ -449,29 +449,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- ========================== PROJECT CONTAINER THREE =========================== -->
-
-        <div class="proj__container">
-
-            <div class="proj__box proj__box-five">
-                <div class="proj__image">
-                    <img src="images/proj5.jpg" alt="proj1" class="proj__img">
-                </div>
-
-                <div class="proj__details">
-                    <h2 class="proj__text">Winning Souls</h2>
-                    <p class="proj__para">Bringing people to God and introducing them to the Gospel.
-                        Along with our Team we are helping People to get closer to God
-                        and helping them to build personal Relationship with God. We do Door
-                        to Door Evangelism, Street Preaching, Child Evangelism and Lead Women Group.</p>
-                </div>
-
-            </div>
-
-
-        </div>
-
 
     </div>
 

@@ -6645,20 +6645,6 @@ nav li a {
     visibility: hidden;
 }
 
-.eye__icons-two {
-    transform: translateY(-15rem);
-    opacity: 0;
-    visibility: hidden;
-    transition: all .4s;
-}
-
-.eye__icons-three {
-    transform: translate(-6.5rem, -15rem);
-    opacity: 0;
-    visibility: hidden;
-    transition: all .4s;
-}
-
 .eye__icon-one {
     font-size: 2rem;
     background-color: #7583F8;
@@ -6668,21 +6654,6 @@ nav li a {
     cursor: pointer;
 }
 
-.eye__icon-two {
-    font-size: 2rem;
-    background-color: #7583F8;
-    padding: 1rem 1rem;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.eye__icon-three {
-    font-size: 2rem;
-    background-color: #7583F8;
-    padding: 1rem 1rem;
-    border-radius: 50%;
-    cursor: pointer;
-}
 
 .gal__image-one {
     cursor: pointer;
@@ -6727,6 +6698,210 @@ nav li a {
 
 .gal__section-two {
     margin-top: -9rem;
+}
+
+/* ========================== GALERY MEDIA QUERYY SECTION ========================== */
+
+@media only screen and (max-width: 1300px) {
+    .gal__one {
+        transform: translateX(8.5rem);
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .gal__one {
+        transform: translateX(6.5rem);
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .gal__one {
+        transform: translateX(4.8rem);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .gal__one {
+        transform: translateX(5.3rem);
+    }
+
+    .galery__one-one {
+        transform: translateX(3rem);
+    }
+
+    .galery__one-two {
+        transform: translateX(-2rem);
+    }
+
+    .galery__one-three {
+        transform: translateX(-7rem);
+    }
+
+    .galery__one-for {
+        transform: translateX(3rem);
+    }
+
+    .galery__one-five {
+        transform: translateX(-2rem);
+    }
+
+    .galery__one-six {
+        transform: translateX(-7rem);
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .gal__one {
+        transform: translateX(3.3rem);
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .gal__one {
+        transform: translateX(2.1rem);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .gal__one {
+        transform: translateX(2.1rem);
+    }
+
+    .gal__section {
+        margin-bottom: -25rem;
+    }
+    
+    .galery__one-one {
+        transform: translateX(17rem);
+    }
+
+    .galery__one-two {
+        transform: translate(17rem, -3rem);
+    }
+
+    .galery__one-three {
+        transform: translate(17rem, -6rem);
+    }
+
+    .galery__one-for {
+        transform: translate(17rem, -12rem);
+    }
+
+    .galery__one-five {
+        transform: translate(17rem, -15rem);
+    }
+
+    .galery__one-six {
+        transform: translate(17rem, -18rem);
+    }
+
+    .eye__icons-one {
+        transform: translate(0.1rem, -33rem);
+    }
+
+    .eye__icons-two {
+        transform: translate(0.1rem, -22rem);
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .gal__one {
+        transform: translateX(0.1rem);
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .gal__one {
+        transform: translateX(-1.5rem);
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .gal__one {
+        transform: translateX(-4.7rem);
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .gal__one {
+        transform: translateX(-7rem);
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .gal__one {
+        transform: translateX(-9.2rem);
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .gal__one {
+        transform: translateX(-11rem);
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .gal__one {
+        transform: translateX(-12.8rem);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .gal__one {
+        transform: translateX(-14.2rem);
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .gal__one {
+        transform: translateX(-15.7rem);
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .gal__one {
+        transform: translateX(-17rem);
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .eye__icons-one {
+        transform: translate(0.1rem, -29.8rem);
+    }
+
+    .eye__icons-two {
+        transform: translate(0.1rem, -18rem);
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .eye__icons-one {
+        transform: translate(0.1rem, -26rem);
+    }
+
+    .eye__icons-two {
+        transform: translate(0.1rem, -16rem);
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .eye__icons-one {
+        transform: translate(0.1rem, -23rem);
+    }
+
+    .eye__icons-two {
+        transform: translate(0.1rem, -14rem);
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .eye__icons-one {
+        transform: translate(0.1rem, -20.7rem);
+    }
+
+    .eye__icons-two {
+        transform: translate(0.1rem, -12.5rem);
+    }
 }
 
 /* ========================== DONATE SECTION ========================== */

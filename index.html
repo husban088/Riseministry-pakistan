@@ -43,7 +43,7 @@
 
     <nav class="navbar  navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.webp" alt="Riseministry-pakistan"
+            <a class="navbar-brand" href="index.html"><img src="images/logo.webp" alt="Riseministry-pakistan"
                     class="navbar__logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
@@ -66,20 +66,21 @@
                                 style="color: #F10E0E; font-weight: 620;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-3" href="product.html"
+                            <a class="nav-link px-3" href="#about"
                                 style="color: #F10E0E; font-weight: 620;">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link px-3" href="men.html" style="color: #F10E0E; font-weight: 620;">Winning
-                                soul</a>
+                        <li class="nav-item" id="nav__link-soul">
+                            <a class="nav-link px-3" href="#win" style="color: #F10E0E; font-weight: 620;">WinningSoul</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-3" href="women.html"
+                            <a class="nav-link px-3" href="#team"
                                 style="color: #F10E0E; font-weight: 620;">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link px-3" href="contact.html"
-                                style="color: #F10E0E; font-weight: 620;">More</a>
+                            <li class="nav-item">
+                                <span class="nav-link px-3" id="nav__span"
+                                    style="color: #F10E0E; font-weight: 620;">More</span>
+                            </li>
                         </li>
 
                         <li class="nav-item">
@@ -98,6 +99,20 @@
             </div>
         </div>
     </nav>
+
+        <!-- ======================= MORE SECTION ======================= -->
+
+        <div class="more__section" id="more__section">
+            <ul class="more__ul hide">
+                <li class="more__Li"><a href="#proj" class="more__link">On going projects</a></li>
+                <li class="more__Li"><a href="#upcom" class="more__link">Up coming projects</a></li>
+                <li class="more__Li"><a href="#ministry" class="more__link">Ministry and mission in pakistan</a></li>
+                <li class="more__Li"><a href="#contact" class="more__link">Contact</a></li>
+                <li class="more__Li"><a href="#gallery" class="more__link">Gallery</a></li>
+                <li class="more__Li"><a href="#donate-one" class="more__link">Donate</a></li>
+                <li class="more__Li"><a href="#donate" class="more__link">Donate through</a></li>
+            </ul>
+        </div>
 
     <!-- ======================= HOME SECTION ======================= -->
 
@@ -155,7 +170,7 @@
 
     <!-- =========================== VIDEO SECTION =========================== -->
 
-    <div class="rise__video-section">
+    <div class="rise__video-section" id="rise">
 
         <video width="100%" height="500px" autoplay controls preload class="rise__video">
             <source src="images/video.mp4" type="video/mp4"/>
@@ -174,7 +189,7 @@
 
     <!-- =========================== ABOUT SECTION ===========================  -->
 
-    <div class="about__section">
+    <div class="about__section" id="about">
         <div class="about__image">
             <img src="images/sildeimage3.webp" alt="sildeimage3" class="about__img">
         </div>
@@ -216,7 +231,7 @@
 
     <!-- =========================== WIINING SOUL SECTION =========================== -->
 
-    <div class="win__section">
+    <div class="win__section" id="win">
         <div class="win__header">
             <h2 class="win__cont-text">WINNING SOULS</h2>
         </div>
@@ -260,7 +275,7 @@
 
     <!-- ========================== TEAM SECTION =========================== -->
 
-    <div class="team__section">
+    <div class="team__section" id="team">
         <div class="team__header">
             <h2 class="team__head">TEAM</h2>
             <p class="team__para">Together We Serve</p>
@@ -363,7 +378,7 @@
 
     <!-- ========================== PROJECT SECTION =========================== -->
 
-    <div class="project__section">
+    <div class="project__section" id="proj">
         <div class="proj__header">
             <div class="project__head">ON GOING PROJECTS</div>
         </div>
@@ -454,7 +469,7 @@
 
     <!-- ========================== UPCOMMING PROJECTS SECTIONN =========================== -->
 
-    <div class="upcom__section">
+    <div class="upcom__section" id="upcom">
 
         <div class="upcome__header">
             <h2 class="upcome__header-text">UP COMING PROJECTS</h2>
@@ -486,7 +501,7 @@
 
     <!-- ======================== ORPHANAGE SECTION ===================== -->
 
-    <div class="orp__section">
+    <div class="orp__section" id="orphage">
         <div class="row">
             <div class="col-1-of-2">
                 <div class="orp__cont">
@@ -516,7 +531,7 @@
 
         <!-- ========================== UPCOMMING PROJECTS SECTIONN TWOOO =========================== -->
 
-        <div class="upcom__section">
+        <div class="upcom__section" id="month">
     
             <div class="row">
                 <div class="col-1-of-2">
@@ -548,7 +563,7 @@
 
     <!-- ======================== ORPHANAGE SECTION THREEEE ===================== -->
 
-    <div class="orp__section">
+    <div class="orp__section" id="orphage">
         <div class="row">
             <div class="col-1-of-2">
                 <div class="orp__cont">
@@ -578,7 +593,7 @@
 
     <!-- ========================== MINISTRY SECTIONN =========================== -->
 
-    <div class="mint__section">
+    <div class="mint__section" id="ministry">
         <div class="min__header">
             <h2 class="min__text">MINISTRY & MISSION IN PAKISTAN</h2>
             <p class="min__para">Striving to make a Change</p>
@@ -598,7 +613,7 @@
 
     <!--  ========================== CONTACT SECTIONN ===========================  -->
 
-    <div class="contact__section">
+    <div class="contact__section" id="contact">
         <div class="contact__header">
             <h2 class="contact__head">CONTACT</h2>
             <p class="contact__loc">Faisalabad, Punjab, Pakistan</p>
@@ -643,7 +658,7 @@
 
     <!-- ========================== GALERY SECTION ========================== -->
 
-    <div class="gal__section">
+    <div class="gal__section" id="gallery">
 
         <div class="gal__header">
             <h2 class="gal__text">GALERY</h2>
@@ -756,7 +771,7 @@
 
         <!-- ========================== DONATE SECTION ========================== -->
 
-        <div class="don__section">
+        <div class="don__section" id="doante-one">
             <div class="don__header">
                 <h2 class="don__text">DONATE</h2>
             </div>
@@ -798,7 +813,7 @@
 
         <!-- ============================ DONATE THROUGH SECTION ==================================== -->
 
-        <div class="project__section">
+        <div class="project__section" id="donate">
             <div class="proj__header">
                 <div class="project__head">DONATE THROUGH</div>
             </div>
@@ -847,7 +862,7 @@
                 </div>
             </div>
 
-                <!-- ========================== FOOTER THROUGH ======================== -->
+                <!-- ========================== FOOTER SECTIONN ======================== -->
 
                 <div class="footer__section">
                     <div class="footer__socials">
@@ -859,16 +874,10 @@
                     <div class="footer__bar">
                         <ul class="footer__ul">
                             <li class="footer__li"><a href="index.html" class="footer__link">Home</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">About</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">Winning Souls</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">Team</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">On Going Projects</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">Up Coming Projects</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">Ministry & Mission In Pakistan</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">Contact</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">Gallery</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">Donate</a></li>
-                            <li class="footer__li"><a href="index.html" class="footer__link">Donate Through</a></li>
+                            <li class="footer__li"><a href="about.html" class="footer__link">About</a></li>
+                            <li class="footer__li"><a href="winningsoul.html" class="footer__link">Winning Souls</a></li>
+                            <li class="footer__li"><a href="team.html" class="footer__link">Team</a></li>
+                            <li class="footer__li"><a href="index.html" class="footer__link">More</a></li>
                         </ul>
                     </div>
 

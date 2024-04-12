@@ -88,6 +88,7 @@ html {
     top: 0 !important;
     width: 100% !important;
     left: 0 !important;
+    z-index: 3000;
 }
 
 nav li a {
@@ -3020,7 +3021,6 @@ nav li a {
         padding-bottom: 9.8rem;
         position: absolute;
         top: -6rem;
-        z-index: 100;
     }
 
     .about__section {
@@ -3053,8 +3053,6 @@ nav li a {
         padding-bottom: 19rem;
         position: absolute;
         top: -6rem;
-        z-index: 100;
-        overflow: scroll !important;
     }
 
     .about__img {
@@ -3101,8 +3099,6 @@ nav li a {
         padding-bottom: 19rem;
         position: absolute;
         top: -5.5rem;
-        z-index: 100;
-        overflow: scroll !important;
     }
 
     .about__img {
@@ -3145,8 +3141,6 @@ nav li a {
         padding-bottom: 19rem;
         position: absolute;
         top: -5.5rem;
-        z-index: 100;
-        overflow: scroll !important;
     }
 
     .about__img {
@@ -3182,8 +3176,6 @@ nav li a {
         padding-bottom: 19rem;
         position: absolute;
         top: -6rem;
-        z-index: 100;
-        overflow: scroll !important;
     }
 
     .about__img {
@@ -3223,8 +3215,6 @@ nav li a {
         padding-bottom: 19rem;
         position: absolute;
         top: -5.7rem;
-        z-index: 100;
-        overflow: scroll !important;
     }
 
     .about__img {
@@ -3265,8 +3255,6 @@ nav li a {
         padding-bottom: 19rem;
         position: absolute;
         top: -6rem;
-        z-index: 100;
-        overflow: scroll !important;
     }
 
     .about__img {
@@ -3309,8 +3297,6 @@ nav li a {
         padding-bottom: 19rem;
         position: absolute;
         top: -6rem;
-        z-index: 100;
-        overflow: scroll !important;
     }
 
     .about__img {
@@ -3349,7 +3335,7 @@ nav li a {
     background-color: #EBEDF0;
     padding-top: 7rem;
     padding-bottom: 12rem;
-    z-index: 300;
+    z-index: 200;
     position: relative;
 }
 

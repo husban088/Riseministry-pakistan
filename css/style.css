@@ -88,8 +88,8 @@ html {
     top: 0 !important;
     width: 100% !important;
     left: 0 !important;
-    -webkit-z-index: 3000;
-    z-index: 3000;
+    -webkit-z-index: 3000 !important;
+    z-index: 3000 !important;
 }
 
 nav li a {
@@ -2233,6 +2233,8 @@ nav li a {
 .rise__video-section {
     position: relative;
     margin-top: -7rem;
+    z-index: 100 !important;
+    -webkit-z-index: 100 !important;
 }
 
 .rise__video {
